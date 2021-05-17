@@ -452,6 +452,7 @@ export class Router<
       sensitive,
       strict,
       ignoreCaptures,
+      encode,
     });
 
     if (this.#opts.prefix) {
