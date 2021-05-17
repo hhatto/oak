@@ -445,6 +445,7 @@ export class Router<
       sensitive = this.#opts.sensitive,
       strict = this.#opts.strict,
       ignoreCaptures,
+      encode = this.#opts.encode,
     } = options;
     const route = new Layer(path, methods, middlewares, {
       end,
